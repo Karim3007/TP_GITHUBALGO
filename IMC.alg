@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description texte="" courant="SI (IMC>18.5 ET IMC&lt;25) ALORS"/>
+    <description courant="SI (IMC>28) ALORS" texte=""/>
     <extension extnom="inactif"/>
-    <fonction fctetat="inactif" fctcode=""/>
-    <F2 F2para="" F2defaut="" F2lignes="" F2etat="inactif"/>
-    <repere repetat="inactif" repcode="-10#10#-10#10#2#2"/>
-    <param epaisseurLigne="2" nbDecimales="8" maxBoucle="500000" totalBoucles="5000000" totalAffichages="1000" epaisseurPoint="2" arrondiAuto="vrai"/>
+    <fonction fctcode="" fctetat="inactif"/>
+    <F2 F2defaut="" F2lignes="" F2para="" F2etat="inactif"/>
+    <repere repcode="-10#10#-10#10#2#2" repetat="inactif"/>
+    <param totalAffichages="1000" nbDecimales="8" arrondiAuto="vrai" epaisseurPoint="2" epaisseurLigne="2" totalBoucles="5000000" maxBoucle="500000"/>
     <item algoitem="FONCTIONS_UTILISEES" code="200#declarationfonctions"/>
     <item algoitem="VARIABLES" code="100#declarationsvariables">
         <item algoitem="taille EST_DU_TYPE NOMBRE" code="1#NOMBRE#taille"/>
@@ -32,12 +32,12 @@
             <item algoitem="AFFICHER &quot;pas assez&quot;" code="4#pas assez#0"/>
             <item algoitem="FIN_SI" code="8#finsi"/>
         </item>
-        <item algoitem="SI (IMC>25) ALORS" code="6#IMC>25">
+        <item algoitem="SI (IMC>28) ALORS" code="6#IMC>28">
             <item algoitem="DEBUT_SI" code="7#debutsi"/>
             <item algoitem="AFFICHER &quot;trop&quot;" code="4#trop#0"/>
             <item algoitem="FIN_SI" code="8#finsi"/>
         </item>
-        <item algoitem="SI (IMC>18.5 ET IMC&lt;25) ALORS" code="6#IMC>18.5 ET IMC&lt;25">
+        <item algoitem="SI (IMC>18.5 ET IMC&lt;28) ALORS" code="6#IMC>18.5 ET IMC&lt;28">
             <item algoitem="DEBUT_SI" code="7#debutsi"/>
             <item algoitem="AFFICHER &quot;normal&quot;" code="4#normal#0"/>
             <item algoitem="FIN_SI" code="8#finsi"/>
